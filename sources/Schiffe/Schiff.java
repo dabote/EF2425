@@ -8,26 +8,29 @@
 public class Schiff
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private String hersteller;
+    private int geschwindigkeit;
+    private int gewicht;
 
     /**
      * Constructor for objects of class Schiff
      */
-    public Schiff()
+    public Schiff( String pHersteller, int pGeschwindigkeit, int pGewicht)
     {
         // initialise instance variables
-        x = 0;
+        hersteller = pHersteller;
+        geschwindigkeit = pGeschwindigkeit;
+        gewicht = pGewicht;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public void setHersteller( String pHersteller )
     {
-        // put your code here
-        return x + y;
+        hersteller = pHersteller;
     }
+    
+    public String getHersteller()
+    {
+        return hersteller;
+    }
+
 }
