@@ -1,26 +1,28 @@
 
 /**
- * Write a description of class Schiff here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Beschreiben Sie hier die Klasse Schiuf.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
  */
 public class Schiff
 {
-    // instance variables - replace the example below with your own
+    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private String hersteller;
     private int geschwindigkeit;
     private int gewicht;
-
+    
     /**
-     * Constructor for objects of class Schiff
+     * Konstruktor für Objekte der Klasse Schiff
      */
-    public Schiff( String pHersteller, int pGeschwindigkeit, int pGewicht)
+    public Schiff(String pHersteller, int pGeschwindigkeit, int pGewicht)
     {
-        // initialise instance variables
         hersteller = pHersteller;
         geschwindigkeit = pGeschwindigkeit;
         gewicht = pGewicht;
+        
+        System.out.println("Objekt der Klasse Schiff wurde erzeugt: hersteller=" + hersteller + ", geschwindigkeit= " + geschwindigkeit + ", gewicht=" + gewicht );
+        
     }
 
     public void setHersteller( String pHersteller )
@@ -32,5 +34,4 @@ public class Schiff
     {
         return hersteller;
     }
-
 }
