@@ -12,6 +12,8 @@ public class Schiff
     private int geschwindigkeit;
     private int gewicht;
     
+    protected int anzPassagiere;
+    
     /**
      * Konstruktor für Objekte der Klasse Schiff
      */
