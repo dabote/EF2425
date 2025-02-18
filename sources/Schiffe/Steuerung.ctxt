@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Steuerung
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Steuerung.\n\ \n\ @author\ (Ihr\ Name)\ \n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\n
+comment1.params=
+comment1.target=Steuerung()
+comment2.params=
+comment2.target=void\ testeSchiffeErzeugen()
+numComments=3

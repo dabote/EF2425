@@ -7,6 +7,8 @@
  */
 public class Segelschiff extends Schiff
 {
+    private int segelflaeche;
+    
     /**
      * Konstruktor für Objekte der Klasse Segelschiff
      */
